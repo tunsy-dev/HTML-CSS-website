@@ -41,17 +41,18 @@ text-decoration: none;
   color:#0d0d0d;
   transition: color 2.5s ease-out;
   margin-top: 50px;
+  background-color: #F28705;
 }
 #first {
   width: 58.7%;
   height: 100vh;
   float:left; 
-  background-color: #0D0D0D;
+  background-color: #05DBF2;
 }
 #second {
-  height: 100vh;
+  height: 70%;
   overflow: hidden;
- background-color: #F2F2F2;
+ background-color:  #F2B705; 
 }
 
 .outcome1 {
@@ -67,7 +68,7 @@ text-decoration: none;
 }
 
 .link {text-decoration: none;
-  color:#F2BF80;}
+  color:#0D0D0D;}
 
 
   h1{
@@ -130,8 +131,9 @@ text-decoration: none;
    
 }
 
-.box1 { background: #F2F2F2; }
-.box2 { background:  #0D0D0D; }
+.box1 { background:  #F2B705F2; }
+.box2 { background: #05DBF2; }
+
 
 .unit1link {
   font-family: 'Vollkorn', serif;
