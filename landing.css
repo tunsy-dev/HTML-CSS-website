@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+    width: 100vw;
+   background-color: #F2F2F2;
+   font-family: 'Manrope', sans-serif;
+   color: #0D0D0D;
+  }   
+  
+  #wrapper {
+    height:400px;
+    overflow: hidden; 
+    font-size: 25px;
+    text-decoration: none;
+    color:#0d0d0d;
+    transition: color 2.5s ease-out;
+    margin-top: 50px;
+  }
+  #first {
+    width: 60%;
+    height: 100vh;
+    float:left; 
+    background-color: #0D0D0D;
+  }
+  #second {
+    height: 100vh;
+    overflow: hidden;
+   background-color: #F2F2F2;
+  }
+   
+  
+  #bannerimage {
+   background-image:linear-gradient(rgba(242, 242, 242, 0.8), rgba(0, 0, 0, 0.1)), url(laptop.jpeg); 
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    margin-top: -2px;
+  } 
+  .banner-text {
+    position: absolute;
+    font-size: 75px;
+    line-height: 100px;
+    top: 45%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    color:#0D0D0D;
+    
+  }
+  p {font-size: 100px;
+    position: absolute;
+    font-size: 75px;
+    line-height: 100px;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color:#0D0D0D;}
+  
+
+ nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color:#0D0D0D;
+    letter-spacing: 10px;
+  }
+
+  .volk {
+    font-size: 17px;
+    color: #0D0D0D;
+    margin-right: 170px;
+    text-decoration: none;
+   
+  } 
